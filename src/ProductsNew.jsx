@@ -1,8 +1,8 @@
-function ProductsNew() {
+export function ProductsNew() {
   return (
     <form>
-      <h2>Log In</h2>
-      <label></label>
+      <label htmlFor="product_name">Product Name: </label>
+      <input name="product_name" type="text" id="product_name" />
     </form>
   );
 }
