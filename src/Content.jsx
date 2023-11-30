@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { ProductsIndex } from "./ProductsIndex";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 export function Content() {
   // const products = ["hi, ", "hey, ", "hello"];
@@ -17,5 +19,9 @@ export function Content() {
 
   useEffect(handleIndexProducts, []);
 
-  return <ProductsIndex products={products} />;
+  return (
+    <main>
+      <ProductsIndex products={products} />
+    </main>
+  );
 }
