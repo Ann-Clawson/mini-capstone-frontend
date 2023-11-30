@@ -10,7 +10,7 @@ export function Content() {
   const handleIndexProducts = () => {
     // console.log("handleIndexProducts");
     axios.get("http://localhost:3000/products.json").then((response) => {
-      console.log(response.data);
+      // console.log(response.data);
       setProducts(response.data);
     });
   };
