@@ -9,6 +9,16 @@ html {
   scroll-behavior: smooth;
 }
 
+.index {
+  margin-top: 50px;
+}
+
+.index-product {
+  margin-top: 40px;
+  padding-top: 25px;
+  border: solid black;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

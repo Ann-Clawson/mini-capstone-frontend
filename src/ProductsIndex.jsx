@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
 export function ProductsIndex(props) {
   return (
-    <div>
+    <div className="index">
+      <h1>Some Products:</h1>
       {props.products.map((product) => (
-        <div key={product.id}>
+        <div className="index-product" key={product.id}>
           <div>
             {product.images.map((image) => (
               <div key={image.id}>
